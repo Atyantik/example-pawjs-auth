@@ -47,7 +47,7 @@ class Header extends Component {
                 <div className="tabs is-right">
                   <ul style={{ border: '0' }} className="header-links">
                     <li>
-                      <Link to="/">
+                      <Link to="/" className="has-text-white">
                         Home
                       </Link>
                     </li>
@@ -55,7 +55,7 @@ class Header extends Component {
                       !isLoggedIn
                       && (
                         <li>
-                          <Link to="/login">
+                          <Link to="/login" className="has-text-white">
                             Login
                           </Link>
                         </li>
@@ -66,12 +66,12 @@ class Header extends Component {
                       && (
                         <React.Fragment>
                           <li>
-                            <Link to="/dashboard">
+                            <Link to="/dashboard" className="has-text-white">
                               Dashboard
                             </Link>
                           </li>
                           <li>
-                            <Link to="/logout">
+                            <Link to="/logout" className="has-text-white">
                               Logout
                             </Link>
                           </li>

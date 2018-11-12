@@ -100,6 +100,8 @@ footer li:before {
   .navbar-menu {
     &.is-active {
       display: block;
+      background-color: #209cee;
+      background-image: linear-gradient(to right, #04a6d7 0%, #209cee 71%, #3287f5 100%);
       .header-links {
         width: 100%;
         display: block;
