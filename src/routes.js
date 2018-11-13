@@ -48,8 +48,8 @@ export default class Routes {
     routeHandler.hooks.initRoutes.tapPromise('AppRoutes', async () => {
       routeHandler.addRoutes(routes);
       routeHandler.setPwaSchema({
-        name: 'ReactPWA | Auth',
-        short_name: 'RPWAA',
+        name: 'ReactPWA | PawJS - Auth',
+        short_name: 'P-Auth',
         dir: 'ltr',
         lang: 'en-US',
         orientation: 'any',
